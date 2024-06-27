@@ -7,7 +7,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
   <strong>Benchmark:</strong> <a href="https://huggingface.co/datasets/jnirschl/uBench"> HuggingFace</a> 
   &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-  <strong>Demo:</strong> <a href="https://clinfo-demo.herokuapp.com/login">Live App</a>
+  <strong>Website:</strong> <a href="https://ale9806.github.io/uBench-website/"> Doks</a>
 </p>
 
 
