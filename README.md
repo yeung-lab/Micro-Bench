@@ -1,6 +1,7 @@
  ![logo](media/u-Bench_logo.png)
  
- Welcome to the official repository  for **Clinfo.ai**: An Open-Source Retrieval-Augmented Large Language Model System for Answering Medical Questions using Scientific Literature.
+ Welcome to the official repository  for **μ-Bench:** A Vision-Language Benchmark for
+Microscopy Understanding
 
 <p align="center">
   <strong>Arxiv:</strong> <a href="https://arxiv.org/abs/2310.16146" target="_blank">Arxiv</a> 
