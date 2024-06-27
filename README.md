@@ -3,11 +3,11 @@
  Welcome to the official repository  for **Clinfo.ai**: An Open-Source Retrieval-Augmented Large Language Model System for Answering Medical Questions using Scientific Literature.
 
 <p align="center">
-  <strong>Arxiv:</strong> <a href="https://arxiv.org/abs/2310.16146">Arxiv</a> 
+  <strong>Arxiv:</strong> <a href="https://arxiv.org/abs/2310.16146" target="_blank">Arxiv</a> 
   &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-  <strong>Benchmark:</strong> <a href="https://huggingface.co/datasets/jnirschl/uBench"> HuggingFace</a> 
+  <strong>Benchmark:</strong> <a href="https://huggingface.co/datasets/jnirschl/uBench" target="_blank"> HuggingFace</a> 
   &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-  <strong>Website:</strong> <a href="https://ale9806.github.io/uBench-website/"> Doks</a>
+  <strong>Website:</strong> <a href="https://ale9806.github.io/uBench-website/" target="_blank"> Doks</a>
 </p>
 
 
