@@ -18,8 +18,7 @@ If you would like to see some functionality or have a comment, open an issue on 
 
 1. [Intro](#intro)
 2. [Accessing the benchmark](#models_c)
-3. [Clinfo+Open Source Models](#models_o)
-6. [Citation](#citation)
+3. [Citation](#citation)
 
 
 
@@ -62,37 +61,7 @@ print(dataset[0].keys())
 ```
 
 
-```src/notebooks/01_UsingClinfoAI.ipynb``` has a quick run-through and explanation for  each individaul  clinfo.AI component.
 
-<a name="models_o"/>
-
-## How can leverage Clinfo.ai using Open Source models via VLLM?
-Clinfo.ai has full integration with [vLLM](). We can use any open source LLM as a backbone following two simple steps:
-
-## Setting an API server
-First, we use vLLM to create an API selecting the model you want to work with:
-In the following example we use ```Qwen/Qwen2-beta-7B-Chat```
-
-```bash
- python -m vllm.entrypoints.openai.api_server --model Qwen/Qwen2-beta-7B-Chat
-```
-
-### Switch the LLM model name to the selected model 
-Instantiate a clinfoAI object with the desired LLM :
-
-
-```python
-from  src.clinfoai.clinfoai import ClinfoAI
-os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
-
-question = "What is the prevalence of COVID-19 in the United States?"
-clinfo   = ClinfoAI(llm="Qwen/Qwen2-beta-7B-Chat")
-answer   = clinfo.forward(question=question)         
-```
-
-
-### IMPORTANT:
-While anyone can use Clinfo.AI, our goal is to augment medical experts not replace them. Read our disclaimer [disclaimer](https://clinfo-demo.herokuapp.com/termsandconditions) and DO NOT use clinfo.AI for medical diagnosis.
 
 
 <a name="citation"/>
