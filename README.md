@@ -5,7 +5,7 @@
 <p align="center">
   <strong>Arxiv:</strong> <a href="https://arxiv.org/abs/2310.16146">Arxiv</a> 
   &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
-  <strong>Paper:</strong> <a href="https://www.worldscientific.com/doi/abs/10.1142/9789811286421_0002">PSB 2024</a> 
+  <strong>Benchmark:</strong> <a href="https://huggingface.co/datasets/jnirschl/uBench"> HuggingFace</a> 
   &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
   <strong>Demo:</strong> <a href="https://clinfo-demo.herokuapp.com/login">Live App</a>
 </p>
