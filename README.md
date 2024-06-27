@@ -66,7 +66,7 @@ print(dataset[0].keys())
 
 <a name="citation"/>
 
-### Cite
+## 📃 Cite
 If you use Clinfo.ai, please consider citing:
 
 ```
