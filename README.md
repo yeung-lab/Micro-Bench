@@ -44,9 +44,7 @@ We release μ-Bench under a permissive license to accelerate the research and de
 
 ##  🧪 Accessing the benchmark
 
-
-
-#### Using Clinfo.AI:
+You Can access our benchmark using HF:
 
 ```python
 from datasets import load_dataset
