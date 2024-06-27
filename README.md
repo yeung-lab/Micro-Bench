@@ -42,7 +42,7 @@ We release μ-Bench under a permissive license to accelerate the research and de
 
 <a name="models_c"/>
 
-## Accessing the benchmark
+##  🧪 Accessing the benchmark
 
 
 
