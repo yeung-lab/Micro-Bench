@@ -15,41 +15,19 @@ Microscopy Understanding
 If you would like to see some functionality or have a comment, open an issue on this repo, we will try to reply as soon as possible
 
 # 📖 Table of Contents
+
 1. [Intro](#intro)
 2. [Clinfo+Closed Source Models](#models_c)
 3. [Clinfo+Open Source Models](#models_o)
 6. [Citation](#citation)
 
-#
+
 
 <a name="intro"/>
 
-Millions of medical research articles are published every year. On the other side, healthcare professionals and medical researchers are expected to stay abreast of the latest scientific discoveries pertinent to their daily practice. However, with limited time and a broad field to cover, keeping up-to-date can be a challenging task. Clinfo.AI **searches** and **synthesizes** medical literature tailored to a **specific** clinical **question** to provide an **answer** grounded on indexed literature. By leveraging a **chain of LLMS** clinfo.ai, can analyze the context of the inquiry to identify and present the most relevant articles pertinent to a scientific question.
+## 🔬 Motivation:
 
-## Clinfo.AI vs ChatGPT:
-![comparison](images/comparison.png)
-
-
-## What type of questions can I ask? 
-Questions based on scientific evidence reported in the literature, for example:
-
-1. What percentage of HIV-positive patients transmit the virus to their children?
-
-2. When do most episodes of COVID-19 rebound after stopping paxlovid treatment?
-
-3. Does magnesium consumption significantly improve sleep quality?
-
-
-## Type of questions you can’t answer with clinfo.AI
- **Broad questions:** These types of questions could potentially be answered by clinfo.AI, but it is highly probable you won’t get what you are looking for. How to correct this type of question? Provide context. For example: "Chest pain pediatrics?"
-
-We recommend asking a specific question to get the best answer:
-
-Original Question: "Chest pain pediatrics?"
-
-Improved Question: "What are common causes of chest pain in pediatric patients?"
-
-<br>
+Microscopy is a cornerstone of biomedical research, enabling detailed study of biological structures at multiple scales. Advances in cryo-electron microscopy, high-throughput fluorescence microscopy, and whole-slide imaging allow the rapid generation of terabytes of image data, which are essential for fields such as cell biology, biomedical research, and pathology. These data span multiple scales, allowing researchers to examine atomic/molecular, subcellular/cellular, and cell/tissue-level structures with high precision. A crucial first step in microscopy analysis is interpreting and reasoning about the significance of image findings. This requires domain expertise and comprehensive knowledge of biology, normal/abnormal states, and the capabilities and limitations of microscopy techniques. Vision-language models (VLMs) offer a promising solution for large-scale biological image analysis, enhancing researchers’ efficiency, identifying new image biomarkers, and accelerating hypothesis generation and scientific discovery. However, there is a lack of standardized, diverse, and large-scale vision-language benchmarks to evaluate VLMs’ perception and cognition capabilities in biological image understanding. To address this gap, we introduce μ-Bench, an expert-curated benchmark encompassing 22 biomedical tasks across various scientific disciplines (biology, pathology), microscopy modalities (electron, fluorescence, light), scales (subcellular, cellular, tissue), and organisms in both normal and abnormal states. We evaluate state-of-the-art biomedical, pathology, and general VLMs on μ-Bench and find that: i) current models struggle on all categories, even for basic tasks such as distinguishing microscopy modalities; ii) current specialist models fine-tuned on biomedical data often perform worse than generalist models; iii) fine-tuning in specific microscopy domains can cause catastrophic forgetting, eroding prior biomedical knowledge encoded in their base model. iv) weight interpolation between fine-tuned and pre-trained models offers one solution to forgetting and improves general performance across biomedical tasks. We release μ-Bench under a permissive license to accelerate the research and development of microscopy foundation models.
 
 
 
