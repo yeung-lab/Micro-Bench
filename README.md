@@ -50,13 +50,15 @@ We release μ-Bench under a permissive license to accelerate the research and de
 #### Using Clinfo.AI:
 
 ```python
-from  src.clinfoai.clinfoai import ClinfoAI
-from config   import OPENAI_API_KEY, NCBI_API_KEY, EMAIL
-os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+from datasets import load_dataset
 
-question = "What is the prevalence of COVID-19 in the United States?"
-clinfo   = ClinfoAI(llm="gpt-3.5-turbo",openai_key=OPENAI_API_KEY, email= EMAIL)
-answer   = clinfo.forward(question=question)         
+dataset = load_dataset(
+    filepath,
+    split="test",
+)
+# Generating test split: 17315 examples [00:05, 3408.49 examples/s]
+
+print(dataset[0].keys())
 ```
 
 
