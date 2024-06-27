@@ -17,7 +17,7 @@ If you would like to see some functionality or have a comment, open an issue on 
 # 📖 Table of Contents
 
 1. [Intro](#intro)
-2. [Clinfo+Closed Source Models](#models_c)
+2. [Accessing the benchmark](#models_c)
 3. [Clinfo+Open Source Models](#models_o)
 6. [Citation](#citation)
 
@@ -34,35 +34,11 @@ Microscopy is a cornerstone of biomedical research, enabling detailed study of b
 
 
 
-## How does Clinfo.AI work?
-
-![diagram](images/diagram.png)
-
-Clinfo.AI is a RetA LLM system, it consists of a collection of four LLMs working conjointly (an LLM chain) coupled to a Search Index as depicted in the above Figure: 
-
-1. First, the input (the question submitted by the user) is converted to a query by an LLM (Question2Query). E.g. for PubMed, the question is converted to a query containing MeSH terms.
-2. The generated queries are then used to retrieve articles from indexed sources (e.g. PubMed)
-3. Then give an article and the original question an LLM is tasked to classify if the article is relevant (if enabled BM25 is used to rank the selected articles).
-4. Relevant articles are individually summarized by an LLM.
-5. Lasyty an LLM aggregates all summaries to provide an overview of all relevant articles.
-
-   
 <a name="models_c"/>
 
-## How can leverage Clinfo.ai using OpenAI models?
+## Accessing the benchmark
 
-#### OPENAI API:
-Create an [OpenAI](https://openai.com/index/openai-api/) account, get an API Key, and edit the key field `OPENAI_API_KEY` in `config.py` with your own key. 
 
-#### NCBI API:
-Clinfo.ai retrieves literature using the NCBI API; while access does not require an account, calls are limited for unregistered users. We recommend creating an [NCBI](https://www.ncbi.nlm.nih.gov/home/develop/api/) account. Once generated, save the NCBI API key and email under `NCBI_API_KEY` and `EMAIL`, respectively.
-
-In summary edit the following variables inside config.py:
-```python
-OPENAI_API_KEY = "YOUR API TOKEN"
-NCBI_API_KEY   = "YOUR API TOKEN"  (optional)
-EMAIL          = "YOUR EMAIL"      (optional)
-```
 
 #### Using Clinfo.AI:
 
