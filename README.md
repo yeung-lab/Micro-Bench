@@ -17,7 +17,7 @@ Microscopy Understanding
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]( https://colab.research.google.com/drive/1G5DZQ2h2YRTtthhnY-iBDe7uSx5ziKsx?usp=sharing)
 
 
-If you would like to see some functionality or have a comment, open an issue on this repo, we will try to reply as soon as possible
+If you would like to see some functionality or have a comment, open an issue on this repo, we will try to reply as soon as possible.
 
 # 📖 Table of Contents
 
@@ -82,7 +82,7 @@ pprint(questions)
 <a name="citation"/>
 
 ## 📃 Cite
-If you use Clinfo.ai, please consider citing:
+If you use microbench for your research, please cite our manuscript:
 
 ```
 @article{Lozano2024muBenchAV,
