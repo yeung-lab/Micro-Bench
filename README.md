@@ -85,13 +85,11 @@ pprint(questions)
 If you use Clinfo.ai, please consider citing:
 
 ```
-@inproceedings{lozano2023clinfo,
-  title={Clinfo. ai: An open-source retrieval-augmented large language model system for answering medical questions using scientific literature},
-  author={Lozano, Alejandro and Fleming, Scott L and Chiang, Chia-Chun and Shah, Nigam},
-  booktitle={PACIFIC SYMPOSIUM ON BIOCOMPUTING 2024},
-  pages={8--23},
-  year={2023},
-  organization={World Scientific}
+@article{Lozano2024muBenchAV,
+  title={\{\mu\}-Bench: A Vision-Language Benchmark for Microscopy Understanding},
+  author={Alejandro Lozano and Jeffrey Nirschl and James Burgess and Sanket Rajan Gupte and Yuhui Zhang and Alyssa Unell and Serena Yeung-Levy},
+  journal={arXiv e-prints},
+  year={2024},
 }
 ```
 
