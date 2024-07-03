@@ -48,14 +48,26 @@ You Can access our benchmark using HF:
 
 ```python
 from datasets import load_dataset
+from pprint import pprint
 
 dataset = load_dataset(
-    filepath,
-    split="test",
-)
-# Generating test split: 17315 examples [00:05, 3408.49 examples/s]
+    "jnirschl/uBench",
+    split="test")
+
+# Generating test split: 17315 examples [00:05, 11928.29 examples/s]
 
 print(dataset[0].keys())
+# dict_keys(['image_id', 'image', 'label', 'label_name', 'dataset', 'domain', 'institution', 'license',...
+
+#
+example = next(iter(dataset))
+image   = example.get("image")     # PIL image
+
+captions = example.get("captions") # dict of captions
+pprint(captions)
+
+questions = example.get("questions") # dict of questions
+pprint(questions)
 ```
 
 
