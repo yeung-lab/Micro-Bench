@@ -88,7 +88,7 @@ If you use microbench for your research, please cite our manuscript:
 @article{Lozano2024muBenchAV,
   title={\{\mu\}-Bench: A Vision-Language Benchmark for Microscopy Understanding},
   author={Alejandro Lozano and Jeffrey Nirschl and James Burgess and Sanket Rajan Gupte and Yuhui Zhang and Alyssa Unell and Serena Yeung-Levy},
-  journal={arXiv e-prints},
+  journal={arXiv preprint arXiv:2407.01791},
   year={2024},
 }
 ```
