@@ -4,7 +4,7 @@
 Microscopy Understanding
 
 <p align="center">
-  <strong>Arxiv Paper:</strong> <a href="https://arxiv.org/abs/2310.16146](https://arxiv.org/pdf/2407.01791v1" target="_blank">Arxiv</a> 
+  <strong>Arxiv Paper:</strong> <a href="https://arxiv.org/pdf/2407.01791v1" target="_blank">Arxiv</a> 
   &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
   <strong>Benchmark:</strong> <a href="https://huggingface.co/datasets/jnirschl/uBench" target="_blank"> HuggingFace</a> 
   &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
