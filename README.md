@@ -11,11 +11,10 @@ Microscopy Understanding
   <strong>Website:</strong> <a href="https://ale9806.github.io/Micro-Bench/" target="_blank"> Doks</a>
  
   
-</p>
 
 
 Explore the Dataset: [![Interact with the dataset](https://colab.research.google.com/assets/colab-badge.svg)]( https://colab.research.google.com/drive/1G5DZQ2h2YRTtthhnY-iBDe7uSx5ziKsx?usp=sharing)
-Evaluate models with MicroBench:[![Evaluate CLIP-style Models with MicroBench](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1EqXJYYenj_3s6a4KMBhPT0mvurrYFqDW?usp=sharing)
+Evaluate models with Micro-Bench: [![Evaluate CLIP-style Models with MicroBench](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1EqXJYYenj_3s6a4KMBhPT0mvurrYFqDW?usp=sharing)
 
 If you would like to see some functionality or have a comment, open an issue on this repo, we will try to reply as soon as possible.
 
